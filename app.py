@@ -167,7 +167,7 @@ if tickers_input:
 
                 # --- Risk Analysis Section ---
                 st.subheader("Risk Analysis")
-                tab1, tab2, tab3 = st.tabs(["Correlation", "Drawdowns", "🔮 Future Projections"])
+                tab1, tab2, tab3 = st.tabs(["Correlation", "Drawdowns", "Future Projections"])
 
                 with tab1:
                     st.caption("How much do these assets move together?")
